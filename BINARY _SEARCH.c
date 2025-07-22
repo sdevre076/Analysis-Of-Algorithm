@@ -22,7 +22,9 @@ void binary_search(int arr[], int size, int key){
 int main(){
     int arr[] = {4,8,12,16,20,24,28};
     int size = sizeof(arr)/sizeof(arr[0]); //size = 7
-    int key = 12;
+    int key;
+    printf("Enter the key :");
+    scanf("%d",&key);
     binary_search(arr, size, key);
     return 0;
 }
